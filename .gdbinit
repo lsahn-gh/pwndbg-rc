@@ -1,6 +1,6 @@
 # context-sections: which context sections are displayed (controls order)
 # default: last_signal regs disasm code ghidra stack backtrace expressions threads heap_tracker
-set context-sections regs disasm code stack backtrace
+set context-sections regs disasm code
 
 # exception-verbose: print a full stacktrace for exceptions raised in Pwndbg commands
 # default: off
